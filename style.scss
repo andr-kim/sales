@@ -1,0 +1,167 @@
+* {
+	margin: 0rem;
+	padding: 0rem;
+	font-family: 'SF Pro Display';
+}
+html, body {
+	height: 100%;
+	background-color: #1B2021;
+}
+main {
+	padding-left: 3.75rem;
+	padding-right: 3.75rem;
+}
+header {
+	display: flex;
+	margin-top: 1.25rem;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.125rem;
+	position: relative;
+	&::after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: .125rem;
+		background: #353C3E;
+		bottom: -1.3125rem;
+		left: 0;
+	}
+}
+menu {
+}
+a {
+	cursor: pointer;
+	&.leftsection__button {
+		color: white;
+		font-size: 1.25rem;
+		font-weight: 400;
+		border: .125rem solid #BB2F54;
+		border-radius: .5rem;
+		padding: 1rem 1.5625rem 1.125rem;
+		text-decoration: none;
+	}
+}
+a.menu:active, 
+a.menu:hover,  
+a.menu {
+	text-decoration: none;
+	color: white;
+}
+a.phone:active, 
+a.phone:hover,  
+a.phone {
+	text-decoration: none;
+	color: white;
+}
+ul {
+	display: flex;
+	list-style-type: none;
+}
+li {
+	.menu {
+		margin: 0 1.875rem;
+	}
+	.mirror {
+		margin-left: 3.75rem;
+	}
+}
+.logo {
+}
+.languages {
+	display: flex;
+}
+.EN {
+	color: rgba(255, 255, 255, 0.5);
+}
+.mainsection {
+	display: flex;
+}
+.leftsection {
+	display: flex;
+	flex-direction: column;
+	margin-top: 9.0625rem;
+}
+.leftsection__title {
+	font-size: 3rem;
+	color: white;
+	font-weight: 500;
+}
+.leftsection__text {
+	font-size: 1.625rem;
+	font-weight: 400;
+	color: #C7C7C7;
+	margin-top: 1.25rem;
+}
+.leftsection__button {
+	margin-top: 2.75rem;
+}
+.numbers {
+	display: flex;
+	color: white;
+	margin-top: 11.625rem;
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		width: 80%;
+		height: .125rem;
+		background: #353C3E;
+		top: -4.625rem;
+		left: 0;
+	}
+}
+.firstline {
+	font-size: 2.25rem;
+	font-weight: 700;
+}
+.plus {
+	color: #BB2F54;
+}
+.projects {
+	margin-left: 4.9375rem;
+}
+.clients {
+	margin-left: 4.9375rem;
+}
+.secondline {
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #B3B3B3;
+	margin-top: 1.25rem;
+}
+.rightsection {
+	max-width: 58.125rem;
+	margin-left: auto;
+}
+.mirrors {
+	margin-top: 5.9375rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.mirror {
+	display: inline-block;
+	width: 15.625rem;
+	height: 19.5rem;
+	background-color: #BB2F54;
+	border-radius: .625rem;
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 3.75rem;
+}
+.mirror:nth-child(1),
+.mirror:nth-child(2),
+.mirror:nth-child(3) {
+	order: 1;
+}
+.mirror:nth-child(4),
+.mirror:nth-child(5),
+.mirror:nth-child(6) {
+	order: 2;
+}
