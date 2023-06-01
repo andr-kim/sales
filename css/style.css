@@ -170,7 +170,10 @@ a.leftsection__button {
     justify-content: center;
 }
 
+
+
 .mirror {
+    position: relative;
     display: inline-block;
     width: 250px;
     height: 312px;
@@ -181,6 +184,12 @@ a.leftsection__button {
     color: white;
     text-decoration: none;
     margin-bottom: 60px;
+}
+
+.mirrorimage {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
 }
 
 li .mirror {
@@ -197,4 +206,46 @@ li .mirror {
 .mirror:nth-child(5),
 .mirror:nth-child(6) {
   order: 2;
+}
+
+.glasses {
+    display: flex;
+    margin-top: -733px;
+    margin-left: -100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+}
+
+.glass {
+    
+    
+    display: inline-block;
+    width: 250px;
+    height: 312px;
+    background: rgba(255, 255, 255, 0.1);
+border: 2px solid rgba(242, 203, 213, 0.1);
+backdrop-filter: blur(10px);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 60px;
+}
+
+li .glass {
+    margin-left: 60px;
+}
+
+.cross {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.glasstext {
+    position: absolute;
+    left: 30px;
+    top: 30px;
 }
